@@ -1,0 +1,67 @@
+.policy-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+    position: relative;
+    box-sizing: border-box;
+}
+.policy-img{
+    width: 50%;
+    height: 50%;
+}
+.policy-img img{
+    width: 100%;
+}
+.policy-form{
+    width: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5%;
+}
+.policy-form h1{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #093B85;
+}
+
+.input-block input{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    width: 80%;
+    border: 1px solid gray;
+}
+
+
+label{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: #11478D;
+    display: none;
+}
+
+input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
+.search-btn{
+    background-color: #11478D;
+    width: 80%;
+    margin-top: 3%;
+    height: 50px;
+
+}
+.search-btn:hover{
+    background-color: #093B85;
+}

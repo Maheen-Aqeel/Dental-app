@@ -1,0 +1,171 @@
+.issue-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 5% 0px 5%;
+    position: relative;
+    box-sizing: border-box;
+}
+.issue_form{
+        margin: 0 auto;
+        padding: 0px 50px;
+}
+.issue_heading{
+    color: #11478D;
+    margin: 0 50px;
+}
+.issueform-row{
+    display: flex;
+    margin-bottom: 10px; 
+}
+.form-group{
+    flex: 1;
+    left: 3px;
+}
+.issue_form
+input {
+    padding: 5px 5px;
+    margin: 5px 10px 5px 0;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.issue_form
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.issue_form div{
+
+}
+
+/*****************************************/
+/* * {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  } */
+  .issuepolicy-div {
+    width: 392px;
+    height: 145px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .div-1 {
+    width: 392px;
+    height: 145px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(17,71,141,1);
+    overflow: hidden;
+  }
+ .div-1 h5 {
+    width: 270px;
+    color: rgba(17,71,141,1);
+    position: absolute;
+    top: 30px;
+    left: 73px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+  }
+  .div-2 {
+    width: 127px;
+    height: 34px;
+    background: rgba(17,71,141,1);
+    opacity: 1;
+    position: absolute;
+    top: 111px;
+    left: 56px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    overflow: hidden;
+  }
+  .div-2 h6{
+    color: rgba(255,255,255,1);
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+  }
+  .div-3 {
+    width: 127px;
+    height: 34px;
+    background: rgba(253,253,253,1);
+    opacity: 1;
+    position: absolute;
+    top: 111px;
+    left: 222px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    overflow: hidden;
+  }
+  .div-3 h6{
+    color: rgba(17,71,141,1);
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+  }
+  /******************checkbox******************/
+  /* .checkbox-container {
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-container label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .checkbox-container input[type="checkbox"]:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .checkbox-container input[type="checkbox"]:checked::before {
+    content: '\2713';
+    display: block;
+    width: 12px;
+    height: 12px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+  }
+  
+  .checkbox-container label:hover input[type="checkbox"] {
+    border-color: #007bff;
+  }
+  
+  .checkbox-container label:hover input[type="checkbox"]:checked {
+    background-color: #007bff;
+  }
+   */
+
+  /***************submit button****************/
+.issue-policybtn{
+    background-color: #11478D;
+    width: 100%;
+    padding: 3%;
+    margin-bottom: 5%;
+}

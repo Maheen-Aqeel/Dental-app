@@ -1,0 +1,52 @@
+.bg-form{
+    background: linear-gradient(180deg, #E0F3FF 0%, rgba(224, 243, 255, 0) 100%);
+}
+.User_page{
+    padding: 5%;
+}
+.user_h1 h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    color: #11478D;
+}
+
+.user_form {
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid #3EB3F9;
+    border-radius: 0px 0px 10px 10px;
+    padding: 50px;
+    background-color: #fff;
+}
+.user_form 
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.user_form
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.register{
+    width: 100%;
+    margin-top: 3%;
+    background-color: #11478D;
+}
+.user_info{
+    background-color: rgb(224, 234, 241);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    background: #3EB3F9;
+    border-radius: 10px;
+    color: #fff;
+}

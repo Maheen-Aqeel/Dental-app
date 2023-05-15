@@ -1,0 +1,13 @@
+.update_btn{
+    background-color: #11478D;
+    width: 100%;
+    border-radius: unset;
+    margin-bottom: 5%;
+}
+.policy_heading{
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    color: #11478D;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,41 @@
+.tablelist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 7% 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1rem;
+  color: #333;
+  border: 1px solid;
+  border-color: #11478D;
+}
+tr{
+  text-align: center;
+}
+
+th {
+  background-color: #3EB3F9;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #3EB3F9;
+  z-index: 100;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: #d8f0fe;
+}
+.pagination{
+  float: right;
+}

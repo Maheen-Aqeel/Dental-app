@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input,button{
+    outline: none;
+    border: none;
+}
+/****************Header****************/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 0 50px;
+    background-color: #fff;
+    z-index: 100000;
+}
+header .sticky{
+    padding: 1px 100px;
+    background: #000;
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    transition: 0.6s;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    padding: 3px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+header ul li a:hover{
+    background-color: #41A928;
+    color: white;
+}
+header .sticky .logo,
+header .sticky ul li a{
+    color: #000;
+}
+.nav-btn{
+    color: #41A928;
+    padding: 10px;
+    font-family:'Raleway', sans-serif;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 0.25rem;
+    border-color: #41A928;
+}
